@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="logo">
+           <div>August's</div> 
+        </div><!--
+
+         Just to get rid of the white space between inline-block elements
+
+     --><div class="wrapper">
+           <div class="intro">
+                <p>This is not a real online service!! <br>
+                    You know you need something like this in your life <br>
+                    to help you realize your deepest dreams. <br>
+                    Sign up now to get started
+                </p>
+                <p>You know you want to.</p>
+           </div>
+           <div class="form">
+                <form action="">
+                    <fieldset>
+                        <h1>Let's do this!</h1>
+                        <legend></legend>
+                        <div>
+                            <p>
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="name" id="first-name" required>
+                            </p>
+                            <p>
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email">
+                            </p>
+                            <p>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required minlength="8">
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <label for="surname">Last name</label>
+                                <input type="text" name="name" id="surname" required>
+                            </p>
+                            <p>
+                                <label for="phone-no">Phone Number</label>
+                                <input type="tel" name="number" id="phone-no">
+                            </p>
+                            <p>
+                                <label for="confirm">Confirm Password</label>
+                                <input type="password" name="password" id="confirm" required>
+                            </p>
+                        </div>
+                    </fieldset>
+                    <button>Create Account</button>
+                </form>
+           </div>
+           <div class="submit">
+           
+            <p>Already have an account? <a href="#">Log in.</a></p>
+           </div>
+        </div>
+    </main>
+    
+</body>
+<script src="script.js"></script>
+</html>

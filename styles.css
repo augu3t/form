@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+=======================================
+Custom Styles
+=======================================
+*/
+*{
+    box-sizing: border-box
+}
+
+body {
+    background: url(img/pexels-kevin-bidwell-1767555.jpg);
+    background-size: 1400px 1000px;
+    font-family: 'Nunito', sans-serif;
+	/*color: #535151;*/
+}
+
+main{
+    width: 97%;
+}
+
+
+/*
+=======================================
+Logo Styles
+=======================================
+*/
+
+.logo {
+	width: 48%;
+	display: inline-block;
+	padding: 150px 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+.logo div {
+	padding: 25px 0;
+	font-size: 3rem;
+	background: rgba(0, 0, 0, 0.5);
+	font-family: 'Comforter Brush', cursive;
+	font-weight: bolder;
+	color: #fff;
+}
+
+/*
+=======================================
+Wrapper Styles
+=======================================
+*/
+
+.wrapper {
+	width: 48%;
+	display: inline-block;
+	min-height: 620px;
+	background: #f0f8ff;
+}
+
+.intro {
+	padding: 70px 0 0px 30px;
+	font-size: 1.1rem;
+}
+
+.intro p {
+	margin-bottom: 30px;
+}
+
+/*
+=======================================
+Form Styles
+=======================================
+*/
+
+fieldset {
+	box-shadow: 0px 2px 5px 1px rgba(40, 40, 40, 0.6);
+	margin: 10px 0;
+	padding: 20px 30px 20px 30px;
+	background: #fff;
+}
+
+.form p {
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 10px;
+	font-variant: small-caps;
+}
+
+.form h1 {
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+}
+
+.form div {
+	width: 43%;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.form input {
+	border: 1px solid #a19e9e;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 7px 7px;
+	font-size: 1rem;
+	font-family: 'Nunito', sans-serif;
+	font-variant: small-caps;
+}
+
+.form input:focus {
+	outline: none;
+	border-color: #6262f3;
+	box-shadow: 1px 1px 2px 1px rgba(40, 40, 40, 0.6);
+	padding: 7px 7px;
+}
+
+.form input:focus:invalid {
+	border-color: red;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	padding: 15px 40px;
+	margin: 10px 30px;
+	background: rgba(31, 71, 31, 0.9);
+	color: #fff;
+}
+
+button:hover {
+	background: rgb(31, 71, 31);
+	cursor: pointer;
+}
+
+
+/*
+=======================================
+Submit Styles
+=======================================
+*/
+
+.submit {
+	margin-top: 5px;
+	padding: 5px 30px 30px 30px;
+}
+
+.submit a{
+	color: rgb(31, 71, 31);
+	text-decoration: none;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.submit p {
+	margin: 0px 0;
+	padding: 5px 0;
+}
